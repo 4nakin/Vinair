@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LOAFactsresults>
+
+    <Level1Type>
+Company
+    </Level1Type>
+
+    <Level2Type>
+Customer
+    </Level2Type>
+
+    <Level1Name>
+HOV
+    </Level1Name>
+
+    <Level2Data>
+
+        <Level2Name>
+Humboldt County
+        </Level2Name>
+
+        <FACTGROUP
+            Currency="USD"
+            DisplayName="Rev-Cost-Margin"
+            DisplayType="STACK" >
+
+            <FACTPERIOD Period="Mar-2013" >
+
+                <FACTNAME FactName="REV" >
+
+                    <FACT>
+
+                        <FACTVALUE>
+2450.95
+                        </FACTVALUE>
+
+                        <GROUP>
+ACT
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+99
+                        </FACTVALUE>
+
+                        <GROUP>
+BUD
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+798
+                        </FACTVALUE>
+
+                        <GROUP>
+FORECAST
+                        </GROUP>
+                    </FACT>
+                </FACTNAME>
+
+                <FACTNAME FactName="COST" >
+
+                    <FACT>
+
+                        <FACTVALUE>
+99
+                        </FACTVALUE>
+
+                        <GROUP>
+ACT
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+14
+                        </FACTVALUE>
+
+                        <GROUP>
+BUD
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+81
+                        </FACTVALUE>
+
+                        <GROUP>
+FORECAST
+                        </GROUP>
+                    </FACT>
+                </FACTNAME>
+
+                <FACTNAME FactName="MARGIN" >
+
+                    <FACT>
+
+                        <FACTVALUE>
+87
+                        </FACTVALUE>
+
+                        <GROUP>
+ACT
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+768
+                        </FACTVALUE>
+
+                        <GROUP>
+BUD
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+84
+                        </FACTVALUE>
+
+                        <GROUP>
+FORECAST
+                        </GROUP>
+                    </FACT>
+                </FACTNAME>
+            </FACTPERIOD>
+        </FACTGROUP>
+
+        <FACTGROUP
+            Currency="USD"
+            DisplayName="Volume"
+            DisplayType="BAR" >
+
+            <FACTPERIOD Period="Mar-2013" >
+
+                <FACTNAME FactName="VOL" >
+
+                    <FACT>
+
+                        <FACTVALUE>
+2314
+                        </FACTVALUE>
+
+                        <GROUP>
+VOL
+                        </GROUP>
+                    </FACT>
+                </FACTNAME>
+            </FACTPERIOD>
+        </FACTGROUP>
+    </Level2Data>
+
+    <Level2Data>
+
+        <Level2Name>
+Humphreys County
+        </Level2Name>
+
+        <FACTGROUP
+            Currency="USD"
+            DisplayName="Rev-Cost-Margin"
+            DisplayType="STACK" >
+
+            <FACTPERIOD Period="Mar-2013" >
+
+                <FACTNAME FactName="REV" >
+
+                    <FACT>
+
+                        <FACTVALUE>
+916
+                        </FACTVALUE>
+
+                        <GROUP>
+ACT
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+450
+                        </FACTVALUE>
+
+                        <GROUP>
+BUD
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+984
+                        </FACTVALUE>
+
+                        <GROUP>
+FORECAST
+                        </GROUP>
+                    </FACT>
+                </FACTNAME>
+
+                <FACTNAME FactName="COST" >
+
+                    <FACT>
+
+                        <FACTVALUE>
+894
+                        </FACTVALUE>
+
+                        <GROUP>
+ACT
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+671
+                        </FACTVALUE>
+
+                        <GROUP>
+BUD
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+481
+                        </FACTVALUE>
+
+                        <GROUP>
+FORECAST
+                        </GROUP>
+                    </FACT>
+                </FACTNAME>
+
+                <FACTNAME FactName="MARGIN" >
+
+                    <FACT>
+
+                        <FACTVALUE>
+763
+                        </FACTVALUE>
+
+                        <GROUP>
+ACT
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+26
+                        </FACTVALUE>
+
+                        <GROUP>
+BUD
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+71
+                        </FACTVALUE>
+
+                        <GROUP>
+FORECAST
+                        </GROUP>
+                    </FACT>
+                </FACTNAME>
+            </FACTPERIOD>
+        </FACTGROUP>
+
+        <FACTGROUP
+            Currency="USD"
+            DisplayName="Volume"
+            DisplayType="BAR" >
+
+            <FACTPERIOD Period="Mar-2013" >
+
+                <FACTNAME FactName="VOL" >
+
+                    <FACT>
+
+                        <FACTVALUE>
+4568
+                        </FACTVALUE>
+
+                        <GROUP>
+VOL
+                        </GROUP>
+                    </FACT>
+                </FACTNAME>
+            </FACTPERIOD>
+        </FACTGROUP>
+    </Level2Data>
+
+    <Level2Data>
+
+        <Level2Name>
+HUMPHREYS COUNTY TAX ASSESSOR
+        </Level2Name>
+
+        <FACTGROUP
+            Currency="USD"
+            DisplayName="Rev-Cost-Margin"
+            DisplayType="STACK" >
+
+            <FACTPERIOD Period="Mar-2013" >
+
+                <FACTNAME FactName="REV" >
+
+                    <FACT>
+
+                        <FACTVALUE>
+150
+                        </FACTVALUE>
+
+                        <GROUP>
+ACT
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+35
+                        </FACTVALUE>
+
+                        <GROUP>
+BUD
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+189
+                        </FACTVALUE>
+
+                        <GROUP>
+FORECAST
+                        </GROUP>
+                    </FACT>
+                </FACTNAME>
+
+                <FACTNAME FactName="COST" >
+
+                    <FACT>
+
+                        <FACTVALUE>
+73
+                        </FACTVALUE>
+
+                        <GROUP>
+ACT
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+198
+                        </FACTVALUE>
+
+                        <GROUP>
+BUD
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+354
+                        </FACTVALUE>
+
+                        <GROUP>
+FORECAST
+                        </GROUP>
+                    </FACT>
+                </FACTNAME>
+
+                <FACTNAME FactName="MARGIN" >
+
+                    <FACT>
+
+                        <FACTVALUE>
+87
+                        </FACTVALUE>
+
+                        <GROUP>
+ACT
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+654
+                        </FACTVALUE>
+
+                        <GROUP>
+BUD
+                        </GROUP>
+                    </FACT>
+
+                    <FACT>
+
+                        <FACTVALUE>
+564
+                        </FACTVALUE>
+
+                        <GROUP>
+FORECAST
+                        </GROUP>
+                    </FACT>
+                </FACTNAME>
+            </FACTPERIOD>
+        </FACTGROUP>
+
+        <FACTGROUP
+            Currency="USD"
+            DisplayName="Volume"
+            DisplayType="BAR" >
+
+            <FACTPERIOD Period="Mar-2013" >
+
+                <FACTNAME FactName="VOL" >
+
+                    <FACT>
+
+                        <FACTVALUE>
+3250
+                        </FACTVALUE>
+
+                        <GROUP>
+VOL
+                        </GROUP>
+                    </FACT>
+                </FACTNAME>
+            </FACTPERIOD>
+        </FACTGROUP>
+    </Level2Data>
+
+</LOAFactsresults>

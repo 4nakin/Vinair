@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+
+    <trips>
+
+        <airlines>
+American Airlines
+        </airlines>
+
+        <arrivalDate>
+2013-07-11
+        </arrivalDate>
+
+        <arrivalTime>
+7:30am
+        </arrivalTime>
+
+        <confirmation>
+2384657B5
+        </confirmation>
+
+        <departureDate>
+2013-07-10
+        </departureDate>
+
+        <departureTime>
+5:50am
+        </departureTime>
+
+        <fees>
+199.9
+        </fees>
+
+        <from>
+Chicago
+        </from>
+
+        <stops>
+2
+        </stops>
+
+        <to>
+San Francisco
+        </to>
+    </trips>
+
+    <trips>
+
+        <airlines>
+American Airlines
+        </airlines>
+
+        <arrivalDate>
+2013-07-09
+        </arrivalDate>
+
+        <arrivalTime>
+10:10pm
+        </arrivalTime>
+
+        <confirmation>
+342336G4
+        </confirmation>
+
+        <departureDate>
+2013-07-09
+        </departureDate>
+
+        <departureTime>
+5:30pm
+        </departureTime>
+
+        <fees>
+230.65
+        </fees>
+
+        <from>
+San Francisco
+        </from>
+
+        <stops>
+0
+        </stops>
+
+        <to>
+Chicago
+        </to>
+    </trips>
+
+</response>

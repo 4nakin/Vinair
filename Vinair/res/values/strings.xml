@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vinair</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+	<string name="username">Email</string>
+	<string name="password">Password</string>
+	<string name="sign_in">Sign In</string>
+	<string name="sign_up">Sign Up</string>
+	<string name="firstname">First Name</string>
+	<string name="lastname">Last Name</string>
+	<string name="re_password">Re-enter Password</string>
+	<string name="get_started">Get Started</string>
+	<string name="welcome">Welcome</string>
+	<string name="exsisting_user">Exsisting User?</string>
+	<string name="new_user">New to Vinair?</string>
+	<string name="no_data">No Data</string>
+	<string name="check_in">Check In</string>
+	<string name="baggage">Baggage</string>
+	<string name="baggage_line">Baggage Line</string>
+	<string name="go_to">Go To</string>
+	
+	<string-array name="dummy">
+	    <item>Test 1</item>
+	    <item>Test 2</item>
+	    <item>Test 3</item>
+	    <item>Test 4</item>
+	    <item>Test 5</item>
+	</string-array>
+	
+	<string name="error_no_network">Network connection not available.</string>
+	<string name="error_login_empty_field">Username or password entry missing.</string>
+	<string name="error_signup_empty_field">Please fill in all the data fields.</string>
+	<string name="error_login_wrong_credentials">Wrong username/password.</string>
+</resources>

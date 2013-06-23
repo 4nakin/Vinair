@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/details_airline_logo"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_alignBottom="@+id/details_airline_logo"
+        android:background="@drawable/shape_shadow_top_down" />
+
+    <TextView
+        android:id="@+id/details_airline_provider_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_vertical"
+        android:padding="7dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/details_airline_logo"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/slider_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/details_destination_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/ic_destination"
+            android:drawablePadding="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/details_stop_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/holo_red_light" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_stop" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/details_departure_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/ic_departure"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_vertical"
+            android:textColor="#FF848684"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/details_arrival_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/ic_arrival"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_vertical"
+            android:textColor="#FF848684"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingRight="5dp"
+                android:text="@string/go_to"
+                android:textColor="#FF848684"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/details_baggage_line_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/baggage_line"
+                android:textColor="@drawable/selector_text_toggle"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/details_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/details_checkin_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_login_button"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/check_in"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/details_baggage_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_offline_read_button"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/baggage"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
